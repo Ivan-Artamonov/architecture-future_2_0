@@ -1,0 +1,60 @@
+{
+  "basePath": "/",
+  "baseUrl": "",
+  "editUrl": "",
+  "logoFile": "",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "tags", "list"],
+  "colors": {
+    "foreground": "#f4f7fb",
+    "background": "#17324d",
+    "highlight": "#2f80ed",
+    "content": "#ffffff",
+    "text": "#263238",
+    "link": "#1565c0",
+    "border": "rgba(255, 255, 255, 0.15)",
+    "tag": "rgba(255, 255, 255, 0.12)"
+  },
+  "quadrants": [
+    { "id": "languages-and-frameworks", "title": "Языки и фреймворки", "description": "Языки реализации доменных и аналитических сервисов", "color": "#6aaed6" },
+    { "id": "methods-and-patterns", "title": "Методы и паттерны", "description": "Архитектурные подходы, интеграция и управление данными", "color": "#4c9f70" },
+    { "id": "platforms-and-operations", "title": "Платформы и эксплуатация", "description": "Облачная инфраструктура, хранение и надежность", "color": "#f2a65a" },
+    { "id": "tools", "title": "Инструменты", "description": "Инструменты разработки, интеграции и аналитики", "color": "#9b7ede" }
+  ],
+  "rings": [
+    { "id": "adopt", "title": "Используем", "description": "Технологии, которые уже применяются и поддерживаются", "color": "#2e8b57", "radius": 0.5, "strokeWidth": 5 },
+    { "id": "trial", "title": "Пробуем", "description": "Пилотируем для целевой архитектуры", "color": "#2f80ed", "radius": 0.69, "strokeWidth": 3 },
+    { "id": "assess", "title": "Изучаем", "description": "Оцениваем перед пилотом", "color": "#f2a65a", "radius": 0.85, "strokeWidth": 2 },
+    { "id": "hold", "title": "Выводим", "description": "Не используем в новых решениях и постепенно заменяем", "color": "#d9534f", "radius": 1, "strokeWidth": 0.75 }
+  ],
+  "flags": {
+    "new": { "color": "#f1235a", "title": "Новое", "titleShort": "N", "description": "Предлагается в целевой архитектуре" },
+    "changed": { "color": "#40a7d1", "title": "Изменено", "titleShort": "C", "description": "Изменен статус или решение" },
+    "default": { "description": "Без изменений" }
+  },
+  "chart": { "size": 800, "blipSize": 12 },
+  "social": [],
+  "imprint": "",
+  "labels": {
+    "title": "Технический радар Будущего 2.0",
+    "imprint": "",
+    "quadrant": "Технические области",
+    "quadrantOverview": "Подробнее",
+    "zoomIn": "Приблизить",
+    "filterByTag": "Отфильтровать по тегу",
+    "footer": "Технический радар для миграции данных в облако",
+    "notUpdated": "Давно не пересматривалось",
+    "notFound": "404",
+    "pageAbout": "Как пользоваться",
+    "pageOverview": "Обзор технологий",
+    "pageSearch": "Поиск",
+    "searchPlaceholder": "Что ищете?",
+    "metaDescription": "Технологический радар компании Будущее 2.0"
+  }
+}
